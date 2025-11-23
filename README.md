@@ -1,7 +1,7 @@
 Hostel Management System
-A robust, Python-based desktop application designed to modernize and streamline the day-to-day administrative operations of managing a hostel. This system digitizes the entire workflow, handling room allocation, student admission, and real-time vacancy tracking using a lightweight, file-based storage approach. By utilizing JSON for data persistence, the application eliminates the need for complex database servers, making it highly portable and easy to run on any standard computer.
-Key Features
-•	Intelligent Room Allocation Logic: The system enforces strict capacity constraints. Before confirming a student's admission, the application checks the specific room's current occupancy against its maximum capacity to prevent double-booking.
+ A robust, Python-based desktop application designed to modernize and streamline the day-to-day administrative operations of managing a hostel. This system digitizes the entire workflow, handling room allocation,  student admission, and real-time vacancy tracking using a lightweight, file-based storage approach. By utilizing JSON for data persistence, the application eliminates the need for complex database servers,        making it highly portable and easy to run on any standard computer.
+ Key Features
+ •	Intelligent Room Allocation Logic: The system enforces strict capacity constraints. Before confirming a student's admission, the application checks the specific room's current occupancy against its maximum    capacity to prevent double-booking.
 •	Secure Admin Panel: Includes a password-protected administrative view (Password: 3939) that allows authorized staff to view the complete list of all registered students along with their specific Admission IDs for easy reference.
 •	Comprehensive Student Database: Acts as a centralized repository for all resident information, storing Student Name, Unique ID, Contact Phone Number, and Admission Date.
 •	Dynamic Vacancy Tracking: The application maintains a real-time count of available beds. The vacancy count decreases upon registration and increases immediately when a student checks out.
@@ -35,3 +35,4 @@ Scenario B: Admin Access Test
 Scenario C: Data Persistence
 1.	Restart App: Close the terminal and run python main.py again.
 2.	Verify Data: Check if the student "John Doe" still exists in the system.
+
